@@ -1,0 +1,39 @@
+.forecast-temp {
+    width: 80px;
+    height: 80px;
+    background-color:#3B71CA;
+    color: white;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.temp-text {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 140%;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.forecast-date {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin: 3px 0px;
+    padding: 0px 3px;
+}
+
+.forecast-card {
+    margin: 2px 15px 2px 2px;
+    width: 80px;
+    border: 1px solid #DDD;
+    border-radius: 5%;
+    box-shadow: 2px 2px #EEE;
+}
