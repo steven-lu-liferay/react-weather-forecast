@@ -6,11 +6,11 @@ function ForecastList(props) {
         <div>
             <h2 className={classes['forecast-header']}>Weather Forecast for {props.regionName}</h2>
             <div className={classes['forecast-list']}>
-                {props.forecasts.map((aForecast) => (
+                {props.forecasts.map((aForecast, forecastIndex) => (
                     <ForecastDay 
-                        key={aForecast.name}
-                        temp={aForecast.temperature}
-                        date={aForecast.name}
+                        key={aForecast['forecast-date']}
+                        forecastData={aForecast}
+                        temperatureUnit = {props.temperatureUnit}
                     />
 
                 ))}

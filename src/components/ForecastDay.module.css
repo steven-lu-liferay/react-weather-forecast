@@ -1,6 +1,6 @@
 .forecast-temp {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color:#3B71CA;
     color: white;
     margin: auto;
@@ -14,9 +14,24 @@
     position: relative;
     text-align: center;
     top: 50%;
-    font-size: 140%;
+    font-size: 120%;
     transform: translateY(-50%);
     font-weight: 600;
+}
+
+.temp-text-single {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 160%;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.temp-line2 {
+    margin-top: 5px;
+    color: #CCC;
+    font-size: 75%;
 }
 
 .forecast-date {
@@ -32,7 +47,7 @@
 
 .forecast-card {
     margin: 2px 15px 2px 2px;
-    width: 80px;
+    width: 100px;
     border: 1px solid #DDD;
     border-radius: 5%;
     box-shadow: 2px 2px #EEE;
